@@ -1,9 +1,14 @@
 import React from 'react'
 import "./Accessories.css"
 
-function Accessories() {
+function Accessories({ imgUrl, title, description }) {
   return (
-    <div>Accessories</div>
+    <div className='Accessories-card'>
+      <img 
+      src={imgUrl} className='img'></img>
+        <h1 className='Accessories-card-title'>{title}</h1>
+        <p>{description}</p>
+    </div>
   )
 }
 
