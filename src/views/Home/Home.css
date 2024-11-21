@@ -1,9 +1,9 @@
 body{
-    background-color: brown;
+    background-color: rgb(190, 88, 88);
 }
 
 .name{
-    background-color: rebeccapurple;
+    background-color: rgb(145, 16, 16);
     font-size: 50px;
     color: white;
     text-align: center;
