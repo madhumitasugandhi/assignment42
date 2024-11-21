@@ -6,7 +6,7 @@ import FoodCard from '../../components/FoodCard/FoodCard'
 function Home() {
   return (
     <div>
-      <h1>Pratham Da Dhaba</h1>
+      <h1 className="name">Pratham Da Dhaba</h1>
 
       <div className="food-card-container">
         <FoodCard
@@ -27,7 +27,7 @@ function Home() {
           imgUrl="https://img.freepik.com/premium-photo/palak-paratha-is-delicious-healthy-tasty-indian-flatbread-made-from-mildly-spiced-whole-wheat-flour-spinach_466689-16016.jpg?ga=GA1.1.1731258435.1722595238&semt=ais_hybrid"
           title="Methi Paratha"
           description="Yummy"
-          price={50}
+          
         />
 
         <FoodCard

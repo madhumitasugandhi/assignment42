@@ -1,3 +1,15 @@
+body{
+    background-color: brown;
+}
+
+.name{
+    background-color: rebeccapurple;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 20px 30px;
+    padding: 10px;
+}
 .food-card-container{
     display: flex;
     flex-wrap: wrap;

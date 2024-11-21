@@ -18,10 +18,13 @@ function FoodCard({ imgUrl, title, description, price }) {
         price ?
 
           <p className="food-card-price">
-            ₹{price}
+            ₹ {price}
           </p>
-          : null
+          : "Not available."
       }
+      <button className="food-card-btn">
+        Add to cart
+      </button>
     </div>
   )
 }
