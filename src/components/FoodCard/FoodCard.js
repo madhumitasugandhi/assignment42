@@ -1,5 +1,6 @@
 import React from 'react'
 import "./FoodCard.css"
+import { THEME } from '../../config/data'
 
 function FoodCard({ imgUrl, title, description, price }) {
 
